@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.sticky-nav{
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+#title {
+  font-size: 80px;
+  text-align: center;
+  color: #C0C0C0;
+  background-color: #795548;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  z-index: 9999;
+}
+
+.bold {
+  font-weight: 630;
+}
+.leftpad30 {
+  padding-left: 30px;;
+}
+
+.toppadimg {
+  padding-top: 10px;;
+}
+.fullpadding40 {
+  padding-left: 0px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+.fullpadding80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.nodpadding {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.fmodpadding {
+  padding-top: 40px;
+}
+.paddingright8 {
+  padding-right: 8px;
+}
+
+img {
+  width: 120px;
+}
+
+.coverimg {
+  width: 300px;
+  border-radius: 10%;
+}
+
+.cardindex {
+  z-index: 1;
+}
+
+.parallax-container {
+  height: "200px";
+}
+
+.bar-color {
+  background-color: #a1cae2;
+}
+
+.carousselcontainer {
+  height: "100px";
+}
+
+#contact {
+  text-align: center;
+  color: #ffffff;
+  background-color: #a1cae2;
+  padding-top: 0px;
+  padding-bottom: 35px;
+}
